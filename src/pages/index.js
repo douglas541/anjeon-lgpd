@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import anjeonLogo from '../assets/images/anjeon-logo-dark.svg';
+import Hero from '../components/Hero';
 
 export default function Home() {
   return (
@@ -9,13 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <main>
-        <img src={anjeonLogo} alt="anjeon-logo" />
-        <h1>Sua empresa está adequada a LGPD?</h1>
-      </main>
-
-      <footer>
-      </footer>
+      <Hero />
     </div>
   )
 }
