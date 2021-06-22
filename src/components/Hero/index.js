@@ -13,10 +13,15 @@ function Hero() {
                     <h1>Sua empresa está adequada a LGPD?</h1>
                 </HeroText>
                 <ButtonContent>
-                    <Button>
+                    <Button
+                        color="#219653"
+                    >
                         <Link href="/">Faça agora o teste</Link>
                     </Button>
-                    <Button>
+
+                    <Button
+                        color="#366273"
+                    >
                         <Link href="/">Saiba mais sobre a LGPD</Link>
                     </Button>
                 </ButtonContent>

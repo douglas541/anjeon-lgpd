@@ -18,7 +18,7 @@ export const Content = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    height: 60%;
+    height: 60vh;
     /* background-color: blue; */
 `;
 
@@ -44,20 +44,38 @@ export const HeroText = styled.div`
     @media (max-width: 768px){
         width: 75%;
     }
+    @media(max-width: 411px){
+        >h1 {
+            font-size: 2.8rem;
+        }
+    }
 `;
 
 export const ButtonContent = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    width: 25vw;
+    justify-content: space-between;
     height: 15vh;
-    /* background-color: red; */
+    /* background-color: blue; */
 `;
 
 export const Button = styled.div`
     >a {
-        font-size: 2.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+        height: 6vh;
+        width: 60vw;
+        min-width: 300px;
+        max-width: 400px;
+        font-size: 2rem;
+        background-color: ${props => props.color};
+        color: ${theme.colors.background};
+
+        @media(max-width: 411px){
+            font-size: 1.4rem;
+        }
     }
 `;
