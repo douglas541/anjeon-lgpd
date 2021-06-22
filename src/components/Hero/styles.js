@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import theme from '../../styles/theme';
-import backgroundImage from '../../assets/images/hero-image.svg';
+import backgroundImage from '../../assets/images/hero-img.jpg';
 
 export const Container = styled.div`
     display: flex;
