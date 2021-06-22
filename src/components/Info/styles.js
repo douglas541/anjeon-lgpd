@@ -2,19 +2,14 @@ import styled from 'styled-components';
 import theme from '../../styles/theme';
 
 export const Container = styled.div`
-    /* background: red; */
-    /* height: 30vh; */
     display: flex;
     justify-content: center;
     align-items: center;
 `
 
 export const Content = styled.div`
-    /* background: blue; */
     display: flex;
-    /* align-items: center; */
     justify-content: space-between;
-    /* height: 100%; */
     width: 70%;
     max-width: 1170px;
     padding: 50px 0;
@@ -26,7 +21,6 @@ export const Content = styled.div`
 `
 
 export const Item = styled.div`
-    /* background: green; */
     display: flex;
     flex-direction: column;
     align-items: center;
